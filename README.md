@@ -28,3 +28,5 @@ python train_val_datalist_creater.py --create_data val
 python eval.py
 or
 python eval.py --test_images_path ./data/train_data
+
+model download:  https://pan.baidu.com/s/1BECiZgsiiCkf3kAyPJkIlA
