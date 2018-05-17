@@ -11,7 +11,9 @@ https://github.com/arashno/tensorflow_multigpu_imagenet
 
 #Example of usages:
 
+
 Training:
+
 1. Prepare training data list:
 python train_val_datalist_creater.py
 
@@ -19,15 +21,21 @@ python train_val_datalist_creater.py
 python train.py
 
 
+
 Testing:
+
 python eval.py
 
-or:
+
+or Testing in batch:
+
 1. Prepare testing data list:
+
 python train_val_datalist_creater.py --create_data val
 
 2. testing in batch:
 
 python eval.py --eval_model True
+
 
 model download:  https://pan.baidu.com/s/1BECiZgsiiCkf3kAyPJkIlA
