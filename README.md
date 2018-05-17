@@ -31,11 +31,11 @@ or Testing in batch:
 
 1. Prepare testing data list:
 
-python train_val_datalist_creater.py --create_data val
+    python train_val_datalist_creater.py --create_data val
 
 2. testing in batch:
 
-python eval.py --eval_model True
+    python eval.py --eval_model True
 
 
 model download:  https://pan.baidu.com/s/1BECiZgsiiCkf3kAyPJkIlA
