@@ -13,20 +13,21 @@ https://github.com/arashno/tensorflow_multigpu_imagenet
 
 Training:
 1. Prepare training data list:
-python train_val_datalist_creater.py --create_data train
+python train_val_datalist_creater.py
 
 2. training or Transfer learning:
 python train.py
-or
-python train.py --transfer_mode 1 --architecture resnet --retrain_from ./model
+
 
 Testing:
+python eval.py
+
+or:
 1. Prepare testing data list:
 python train_val_datalist_creater.py --create_data val
 
-2. testing in batch or single:
-python eval.py
-or
-python eval.py --test_images_path ./data/train_data
+2. testing in batch:
+
+python eval.py --eval_model True
 
 model download:  https://pan.baidu.com/s/1BECiZgsiiCkf3kAyPJkIlA
