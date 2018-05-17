@@ -14,17 +14,19 @@ https://github.com/arashno/tensorflow_multigpu_imagenet
 
 Training:
 
-1. Prepare training data list:
-python train_val_datalist_creater.py
+  1. Prepare training data list:
+    python train_val_datalist_creater.py
 
-2. training or Transfer learning:
-python train.py
+  2. training or Transfer learning:
+    python train.py
+
 
 
 
 Testing:
 
-python eval.py
+    python eval.py
+
 
 
 or Testing in batch:
